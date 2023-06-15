@@ -3,3 +3,4 @@
 2. Progress Steps [Live Demo](https://javascript-projects-progress-steps.netlify.app/)
 3. Rotating Navigation [Live Demo](https://javascript-projects-roatating-nav.netlify.app/)
 4. Hidden Search [Live Demo](https://javascript-project-hidden-search.netlify.app/)
+5. Blurry Loading [Live Demo](https://javascript-project-blurry-loading.netlify.app/)

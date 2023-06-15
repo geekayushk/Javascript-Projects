@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+.bg{
+    background: url(image.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: -30px;
+    left: -30px;
+    height: calc(100vh + 60px);
+    width: calc(100vw + 60px);
+    position: absolute;
+    filter: blur(0px);
+    z-index: -1;
+}
+.loading-text{
+    font-size: 60px;
+    color: white;
+}
