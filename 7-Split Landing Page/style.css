@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    overflow:hidden;
+    margin: 0;
+    font-family: sans-serif;
+}
+h1{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    font-size: 3.5rem;
+    color: #fff;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-family: sans-serif;
+}
+.btn{
+    text-decoration: none;
+    position: absolute;
+    border: 2px solid #fff;
+    padding: 1.5rem;
+    width: 15rem;
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%);
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.split.left .btn:hover{
+    background-color: rgba(87,84,236,1);
+    border-color: rgba(87,84,236,1);
+}
+.split.right .btn:hover{
+    background-color: rgba(28,122,28,1);
+    border-color: rgba(28,122,28,1);
+}
+.container{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #333;
+}
+.split{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+.split.left{
+    left: 0px;
+    background: url(ps.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.split.right{
+    right: 0px;
+    background: url(xbox.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.split.left::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(87,84,236,0.7);
+}
+.split.right::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(43,43,43,0.8);
+}
+.split.left,.split.left::before, .split.right, .split.right::before{
+    transition: all 1s ease-in-out;
+}
+.hover-left .left{
+    width: 75%;
+}
+.hover-left .right{
+    width: 25%;
+}
+.hover-right .right{
+    width: 75%;
+}
+.hover-right .left{
+    width: 25%;
+}
+
+@media (max-width:800px){
+    h1{
+        font-size: 2rem;
+        top: 25%;
+    }
+    .btn{
+        padding: 1rem;
+        width: 10rem;
+    }
+}

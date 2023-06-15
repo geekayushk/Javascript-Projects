@@ -5,3 +5,4 @@
 4. Hidden Search [Live Demo](https://javascript-project-hidden-search.netlify.app/)
 5. Blurry Loading [Live Demo](https://javascript-project-blurry-loading.netlify.app/)
 6. Scroll Animation [Live Demo](https://javascript-project-scroll-animation.netlify.app/)
+7. Split Landing Page [Live Demo](https://javascript-projects-split-landing.netlify.app/)
