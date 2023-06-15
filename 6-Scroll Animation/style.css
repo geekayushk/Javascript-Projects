@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+    overflow-x: hidden;
+    background:linear-gradient(100deg, black, grey);
+}
+.box{
+    background-color: grey;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(400%);
+    transition: transform 0.5s ease;
+
+}
+.box:nth-of-type(even){
+    transform: translateX(-400%);
+}
+.box.show{
+    transform: translateX(0);
+}
+.box h2{
+    color: white;
+    font-size: 50px;
+}
+h1{
+    color: white;
+}
