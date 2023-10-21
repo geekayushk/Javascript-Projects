@@ -7,3 +7,6 @@
 6. Scroll Animation [Live Demo](https://javascript-project-scroll-animation.netlify.app/)
 7. Split Landing Page [Live Demo](https://javascript-projects-split-landing.netlify.app/)
 8. Movie-App [Live Demo](https://javascript-project-movie-app.netlify.app/)
+9. color-Changer [Live Demo](https://javascript-projects-color-changer.netlify.app/)
+10. BMI-Calculator [Live Demo](https://javascript-projects-bmi-calculator.netlify.app/)
+11. Digital-Clock [Live Demo](https://javascript-projects-digital-clock.netlify.app/)
