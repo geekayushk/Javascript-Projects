@@ -11,3 +11,5 @@
 10. BMI-Calculator [Live Demo](https://javascript-projects-bmi-calculator.netlify.app/)
 11. Digital-Clock [Live Demo](https://javascript-projects-digital-clock.netlify.app/)
 12. Guess-the-Number [Live Demo](https://javasript-projects-guess-the-number.netlify.app/)
+13. Unlimited Colors [Live Demo](https://javascript-projects-unlimited-color.netlify.app/)
+14. KeyBoard [Live Demo](https://javascript-projects-keyboard.netlify.app/)
