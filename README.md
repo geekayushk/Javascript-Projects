@@ -13,3 +13,4 @@
 12. Guess-the-Number [Live Demo](https://javasript-projects-guess-the-number.netlify.app/)
 13. Unlimited Colors [Live Demo](https://javascript-projects-unlimited-color.netlify.app/)
 14. KeyBoard [Live Demo](https://javascript-projects-keyboard.netlify.app/)
+15. To-Do App [Live Demo](https://javascript-projects-todo-app.netlify.app/)
